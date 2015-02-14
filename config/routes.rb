@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  resources :actualizacions
+
   resources :grupos
 
   resources :categories
