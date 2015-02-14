@@ -7,6 +7,9 @@ gem 'rails', '4.1.4'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.3'
+
+gem 'merit'
+
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .js.coffee assets and views
@@ -40,17 +43,18 @@ gem 'spring',        group: :development
 
 gem 'bundler'
 
-gem 'simple_form'
-gem 'acts_as_votable', github: 'ryanto/acts_as_votable'
-gem 'delayed_job_active_record'
-gem 'binding_of_caller'
+gem 'validates_formatting_of'
+gem 'tzinfo-data'
+gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
+gem 'bootstrap-sass-extras'
+gem 'activeadmin', github: 'gregbell/active_admin'
 gem 'devise', github: 'plataformatec/devise'
 gem 'omniauth'
 gem 'omniauth-facebook'
-gem 'bootstrap-sass', github: 'twbs/bootstrap-sass'
-gem 'bootstrap-sass-extras'
-gem 'tzinfo-data'
-gem 'validates_formatting_of'
+gem 'binding_of_caller'
+gem 'delayed_job_active_record'
+gem 'acts_as_votable', github: 'ryanto/acts_as_votable'
+gem 'simple_form'
 
 group :development do
   gem 'better_errors'
